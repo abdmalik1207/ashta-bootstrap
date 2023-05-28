@@ -43,20 +43,21 @@
 }
 
 /* Banner Carousel */
-@media (min-width: 1200px) {
+@media (min-width: 960px) {
   .banner-carousel img {
-    width: 100%;
+    height: 400px;
+    -o-object-fit: cover;
+       object-fit: cover;
   }
 }
-.banner-carousel .carousel-control-prev-icon {
-  background-image: url("/frontend/icons/prev-icon.svg") !important;
-  position: absolute;
-  left: 0;
-}
-.banner-carousel .carousel-control-next-icon {
-  background-image: url("/frontend/icons/next-icon.svg") !important;
-  position: absolute;
-  right: 0;
+@media (max-width: 756px) {
+  .banner-carousel button {
+    width: 16px;
+    height: 16px;
+  }
+  .banner-carousel button i {
+    font-size: 10px;
+  }
 }
 
 /* Card Prakerja */
