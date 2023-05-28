@@ -50,7 +50,7 @@
        object-fit: cover;
   }
 }
-@media (max-width: 756px) {
+@media only screen and (max-width: 756px) {
   .banner-carousel button {
     width: 16px;
     height: 16px;

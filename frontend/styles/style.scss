@@ -46,15 +46,24 @@
       object-fit: cover;
     }
   }
-  @media (max-width: 756px) {
+  @media only screen and (max-width: 756px) {
     button {
-      width: 16px;
-      height: 16px;
-      i {
-        font-size: 10px;
-      }
-    }
+          width: 16px;
+          height: 16px;
+          i {
+            font-size: 10px;
+          }
+        }
   }
+  // @media (max-width: 756px) {
+  //   button {
+  //     width: 16px;
+  //     height: 16px;
+  //     i {
+  //       font-size: 10px;
+  //     }
+  //   }
+  // }
 }
 
 /* Card Prakerja */
