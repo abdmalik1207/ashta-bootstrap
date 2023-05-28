@@ -1,0 +1,340 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar */
+.navbar {
+  z-index: 100;
+}
+.navbar button.btn-info {
+  background-color: #34B9DE;
+  border-color: #34B9DE;
+  color: #fff;
+}
+.navbar button.btn-info:hover {
+  background-color: #fff;
+  color: #34B9DE;
+}
+.navbar button.btn-outline-info {
+  background-color: #fff;
+  border-color: #34B9DE;
+  color: #34B9DE;
+}
+.navbar button.btn-outline-info:hover {
+  background-color: #34B9DE;
+  color: #fff;
+}
+.navbar a {
+  color: #586873;
+}
+.navbar input::-moz-placeholder {
+  font-size: 12px;
+  color: lightgray;
+}
+.navbar input::placeholder {
+  font-size: 12px;
+  color: lightgray;
+}
+.navbar .nav-item {
+  color: #586873;
+}
+.navbar .nav-item a {
+  color: #586873;
+}
+
+/* Banner Carousel */
+@media (min-width: 1200px) {
+  .banner-carousel img {
+    width: 100%;
+  }
+}
+.banner-carousel .carousel-control-prev-icon {
+  background-image: url("/frontend/icons/prev-icon.svg") !important;
+  position: absolute;
+  left: 0;
+}
+.banner-carousel .carousel-control-next-icon {
+  background-image: url("/frontend/icons/next-icon.svg") !important;
+  position: absolute;
+  right: 0;
+}
+
+/* Card Prakerja */
+@media (max-width: 576px) {
+  .prakerja .card .card-content p {
+    font-size: 12px;
+  }
+}
+.prakerja .card .card-content p {
+  color: grey;
+  font-size: 12px;
+}
+.prakerja .card .card-content button {
+  font-size: 10px;
+}
+
+/* Kategori Kelas */
+.kategori-kelas h5 {
+  color: #586873;
+}
+.kategori-kelas .subtitle {
+  font-size: 12px;
+}
+.kategori-kelas button {
+  font-size: 10px;
+}
+
+/* Program Unggulan */
+.program-unggulan h5 {
+  color: #586873;
+}
+.program-unggulan h6 {
+  color: #586873;
+  font-size: 14px;
+}
+.program-unggulan p {
+  color: #586873;
+  font-size: 12px;
+}
+.program-unggulan .btn {
+  font-size: 14px;
+}
+
+/* Testimoni */
+.testimoni h5 {
+  color: #586873;
+}
+.testimoni img {
+  border-radius: 90px;
+}
+
+/* Partner */
+.partner h5 {
+  color: #586873;
+}
+
+/* Footer */
+.footer {
+  padding-top: 70px;
+  background-color: #415360;
+  padding-bottom: 10px;
+  font-weight: lighter;
+  font-size: 14px;
+}
+.footer h4 {
+  font-size: 18px;
+}
+.footer p {
+  color: #fff;
+  font-size: 12px;
+}
+.footer .social-media a {
+  padding: 10px;
+  border: 1px solid #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+.footer .social-media a:hover {
+  color: #415360;
+  background-color: #fff;
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+.footer .link a {
+  font-size: 12px;
+  text-decoration: none;
+  color: #fff;
+  margin-bottom: 8px;
+}
+
+/* Login */
+.login .card h6 {
+  color: #586873;
+  font-size: 18px;
+}
+.login .card label {
+  color: grey;
+  font-size: 12px;
+}
+.login .card input::-moz-placeholder {
+  color: rgba(88, 104, 115, 0.5);
+  font-size: 13px;
+}
+.login .card input::placeholder {
+  color: rgba(88, 104, 115, 0.5);
+  font-size: 13px;
+}
+.login .card .check-box a {
+  font-size: 12px;
+}
+.login .card p {
+  font-size: 12px;
+}
+
+/* Register */
+.register .card h6 {
+  color: #586873;
+  font-size: 18px;
+}
+.register .card label {
+  color: grey;
+  font-size: 12px;
+}
+.register .card input::-moz-placeholder {
+  color: rgba(88, 104, 115, 0.5);
+  font-size: 13px;
+}
+.register .card input::placeholder {
+  color: rgba(88, 104, 115, 0.5);
+  font-size: 13px;
+}
+.register .card p {
+  font-size: 12px;
+}
+
+/* Voucher */
+.voucher .card .card-body h6 {
+  color: #586873;
+}
+.voucher .card .card-body label {
+  color: #586873;
+}
+.voucher .card .card-body input::-moz-placeholder {
+  color: #586873;
+  font-size: 12px;
+}
+.voucher .card .card-body input::placeholder {
+  color: #586873;
+  font-size: 12px;
+}
+
+/* Pencarian */
+.pencarian h4 {
+  color: #586873;
+}
+.pencarian h5 {
+  color: #586873;
+}
+.pencarian h6 {
+  color: #586873;
+  font-size: 14px;
+}
+.pencarian p {
+  color: #848c92;
+  font-size: 12px;
+}
+
+/* Detail */
+.banner-detail {
+  background-image: url("../images/banner-detail.svg");
+  background-size: cover;
+}
+.banner-detail .content {
+  min-height: 350px;
+}
+.banner-detail .content h1 {
+  font-size: 4rem;
+}
+@media (max-width: 576px) {
+  .banner-detail .content h1 {
+    font-size: 42px;
+  }
+}
+.banner-detail .content > div {
+  margin-bottom: 70px;
+}
+.banner-detail p {
+  color: #ececec;
+}
+
+.description {
+  padding: 40px 60px 20px 60px;
+  border-radius: 10px;
+  transform: translate(0, -50%);
+}
+
+.pembelajaran a {
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+}
+.pembelajaran .more {
+  color: red;
+}
+.pembelajaran .more i {
+  margin-left: 4px;
+}
+.pembelajaran .sticky {
+  position: sticky;
+  top: 100px;
+  width: 100%;
+}
+
+#rating {
+  padding-bottom: 90px;
+}
+#rating .ulasan span {
+  font-size: 12px;
+}
+#rating .ulasan-bintang .detail-rating {
+  position: relative;
+  min-width: 280px;
+  height: 12px;
+  background: lightgray;
+  border-radius: 5px;
+  overflow: hidden;
+}
+#rating .ulasan-bintang .detail-rating div {
+  position: absolute;
+  height: 100%;
+  background-color: #fcd010;
+}
+#rating .komentar-user .profile-user {
+  width: 50px;
+  height: 50px;
+}
+#rating .komentar-user h5 {
+  font-size: 21px;
+  margin-bottom: 10px;
+}
+
+.detail-produk {
+  border-radius: 15px;
+  padding: 12px;
+}
+.detail-produk img {
+  border-radius: 12px;
+}
+.detail-produk .price del {
+  color: #909090;
+  font-size: 14px;
+}
+.detail-produk .peserta {
+  font-size: 12px;
+}
+.detail-produk .peserta i {
+  color: #f93846;
+}
+.detail-produk .program-belajar p {
+  color: #828282;
+}
+.detail-produk .program-belajar i {
+  width: 30px;
+}
+.detail-produk .bahasa-pengantar p {
+  color: #828282;
+  margin-bottom: 0;
+}
+
+/* Payment */
+.payment p {
+  color: #586873;
+  font-size: 14px;
+}
+.payment span {
+  font-size: 10px;
+}/*# sourceMappingURL=style.css.map */

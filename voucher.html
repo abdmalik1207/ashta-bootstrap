@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Google Font Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+
+    <!-- Link Bootstrap -->
+    <link rel="stylesheet" href="frontend/libraries/bootstrap/css/bootstrap.css">
+
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="frontend/styles/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+
+     <!-- Navbar -->
+     <nav class="navbar navbar-expand-lg rounded shadow bg-light sticky-top" aria-label="Thirteenth navbar example">
+      <div class="container d-flex justify-content-between">
+        <a class="navbar-brand col-2" href="#"><img src="frontend/images/logo.svg" alt="" /></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample11" aria-controls="navbarsExample11" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarsExample11">
+          <div class="col-12 d-flex flex-column flex-lg-row justify-content-lg-between">
+            <ul class="navbar-nav col-lg-8 ms-2 ms-lg-0">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kategori</a>
+                <ul class="dropdown-menu my-2">
+                  <li><a class="dropdown-item" href="#">Action</a></li>
+                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                </ul>
+              </li>
+              <form class="rounded-pill d-flex bg-light border">
+                <input type="text" class="form-control rounded-pill border-0 outline-0 bg-transparent shadow-none py-1" placeholder="Cari Program Belajar" aria-label="Search ..." />
+                <a href="#" class="align-self-center pe-2">
+                  <span><i class="fa fa-search"></i></span>
+              </form>
+            </ul>
+            <div class="col-lg-0 d-flex justify-content-lg-between mt-3 mt-lg-0">
+                <a href="https://wasap.at/YJk1dj" target="_blank" class="text-decoration-none align-self-center align-self-lg-auto pt-lg-2 mx-lg-2">Bantuan</a>
+              <span class="align-self-center mx-3 mx-lg-0">
+                <button class="btn btn-light mx-lg-3 border" title="Redeem Voucher">
+                  <a href="voucher.html" class="text-decoration-none pt-lg-2 mx-lg-2">
+                    <img src="frontend/images/redeem.svg" alt="">
+                  </a>
+                </button>
+              </span>
+              <div class="d-flex justify-content-between align-items-center w-100">
+                <div>
+                    <div class="btn-group d-none d-lg-block">
+                      <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="frontend/images/pep.jpg" class="rounded-circle"
+                          style="height: 40px; width: 40px; object-fit: cover" alt="Image User">
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-end mt-2" aria-labelledby="profileDropdown">
+                        <li>
+                          <a class="dropdown-item">
+                            <div class="d-flex align-items-center">
+                              <div class="flex-shrink-0 me-3">
+                                <div class="avatar avatar-online">
+                                  <img src="frontend/images/pep.jpg" class="rounded-circle"
+                                    style="height: 50px; width: 50px; object-fit: cover" alt="Image User">
+                                </div>
+                              </div>
+                              <div class="flex-grow-1">
+                                <span class="fw-semibold d-block">Pep Guardiola</span>
+                                <small class="text-muted">Pep Guardiola</small>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li><a class="dropdown-item mt-3" href="#">Dashboard</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                          <a href="home-1.html" class="text-decoration-none">
+                            <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#basicModal">
+                              <i class="bx bx-power-off"></i>
+                              <span>
+                                Log Out
+                              </span>
+                            </button>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="btn-group d-lg-none">
+                      <a class="nav-link dropdown-toggle" href="#" id="profileDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img src="frontend/images/pep.jpg" class="rounded-circle"
+                          style="height: 40px; width: 40px; object-fit: cover" alt="Image User">
+                      </a>
+                      <ul class="dropdown-menu dropdown-menu-start mt-2" aria-labelledby="profileDropdown">
+                        <li>
+                          <a class="dropdown-item">
+                            <div class="d-flex align-items-center">
+                              <div class="flex-shrink-0 me-3">
+                                <div class="avatar avatar-online">
+                                  <img src="frontend/images/pep.jpg" class="rounded-circle"
+                                    style="height: 50px; width: 50px; object-fit: cover" alt="Image User">
+                                </div>
+                              </div>
+                              <div class="flex-grow-1">
+                                <span class="fw-semibold d-block">Pep Guardiola</span>
+                                <small class="text-muted">Pep Guardiola</small>
+                              </div>
+                            </div>
+                          </a>
+                        </li>
+                        <li><a class="dropdown-item mt-3" href="#">Dashboard</a></li>
+                        <li>
+                          <hr class="dropdown-divider">
+                        </li>
+                        <li>
+                          <a href="home-1.html" class="text-decoration-none">
+                            <button class="dropdown-item" type="button" data-bs-toggle="modal" data-bs-target="#basicModal">
+                              <i class="bx bx-power-off"></i>
+                              <span>
+                                Log Out
+                              </span>
+                            </button>
+                          </a>
+                        </li>
+                      </ul>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section>
+      <div class="voucher container mt-5">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-12 col-md-8 col-lg-6 col-xl-5">
+            <div class="card w-100 shadow-2-strong" style="border-radius: 1rem;">
+              <div class="card-body p-5 text-center">
+                <img src="frontend/images/redeem-voucher.svg" alt="" class="w-50" />
+                <h6 class="text-center my-4 fw-medium">Tukar Kode Voucher Anda</h6>
+                <div class="mb-2">
+                  <label class="form-label fw-medium mb-4" for="#">Tukarkan kode vocer untuk mendapatkan promo program yang manarik dari Astha Academy </label>
+                  <input type="password" id="#" class="form-control rounded-5" placeholder="Kode Voucher"/>
+                </div>
+
+                <a href="#" class="text-decoration-none">
+                  <button class="btn btn-info text-light rounded-5 w-100 mt-4 fw-medium" type="submit">Tukarkan Kode Voucher</button>
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Link Bootstrap -->
+    <script src="frontend/libraries/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  </body>
+</html>
