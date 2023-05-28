@@ -44,10 +44,14 @@
 
 /* Banner Carousel */
 @media (min-width: 960px) {
+  .banner-carousel .splide__track {
+    border-radius: 2rem;
+  }
   .banner-carousel img {
     height: 400px;
     -o-object-fit: cover;
        object-fit: cover;
+    border-radius: 2rem;
   }
 }
 @media only screen and (max-width: 756px) {

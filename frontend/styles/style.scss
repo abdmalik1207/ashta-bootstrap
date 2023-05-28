@@ -41,29 +41,24 @@
 /* Banner Carousel */
 .banner-carousel {
   @media (min-width: 960px) {
+    .splide__track {
+      border-radius: 2rem;
+    }
     img {
       height: 400px;
       object-fit: cover;
+      border-radius: 2rem;
     }
   }
   @media only screen and (max-width: 756px) {
     button {
-          width: 16px;
-          height: 16px;
-          i {
-            font-size: 10px;
-          }
-        }
+      width: 16px;
+      height: 16px;
+      i {
+        font-size: 10px;
+      }
+    }
   }
-  // @media (max-width: 756px) {
-  //   button {
-  //     width: 16px;
-  //     height: 16px;
-  //     i {
-  //       font-size: 10px;
-  //     }
-  //   }
-  // }
 }
 
 /* Card Prakerja */
