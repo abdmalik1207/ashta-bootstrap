@@ -147,7 +147,7 @@
     <main class="container">
 
       <!-- Banner Carousel -->
-      <div id="carouselExampleControls" class="banner-carousel carousel slide mt-5" data-bs-ride="carousel">
+      <!-- <div id="carouselExampleControls" class="banner-carousel carousel slide mt-5" data-bs-ride="carousel">
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="frontend/images/banner.svg" width="100%"  alt="...">
@@ -167,7 +167,23 @@
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
+      </div> -->
+
+      <header class="splide mt-5" aria-label="Beautiful Images"
+        data-splide='{
+          "perPage":1,
+          "autoplay":true,
+          "autoWidth": false
+        }'>
+        <div class="splide__track rounded-5">
+          <ul class="splide__list">
+              <li class="splide__slide">
+                <img src="frontend/images/banner.svg" alt="" class="w-100 rounded-5" style="height: 400px; object-fit: cover;">
+              </li>
+          </ul>
+        </div>
+      </header>
+
 
       <!-- Prakerja -->
       <section class="prakerja mt-5">
